@@ -1,0 +1,9 @@
+{
+"access_token": "YOUR-ACCESS-TOKEN",
+"instrument":"EUR_USD",
+"begin_date":"2018-01-02 00:00:00",
+"end_date":"2018-01-07 00:000:00",
+"granularity":"H1",
+"price":"AB"
+}
+

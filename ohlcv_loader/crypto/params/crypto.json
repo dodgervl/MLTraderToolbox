@@ -1,0 +1,8 @@
+{
+"exchange":"bitmex",
+"symbol":"BTC/USD",
+"date_begin":"2017-01-01 00:00:00",
+"date_end":"2017-02-01 00:00:00",
+"timeframe":"5m"
+}
+

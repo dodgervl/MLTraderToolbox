@@ -9,7 +9,7 @@ import time
 def main():
     timeframe_dic = {'5m': 5, '1m': 1, '1h': 60, '1d': 1440}
     exchange_dic = {'bitmex': ccxt.bitmex(), 'binance': ccxt.binance(),
-                    'bittrex': ccxt.bittrex()}
+                    'bittrex': ccxt.bittrex(), 'bitfinex': ccxt.bitfinex()}
     cwd = os.getcwd()
     with open(cwd + '/params/crypto.json') as f:
         params = json.loads(f.read())
